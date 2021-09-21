@@ -1,0 +1,221 @@
+/* styles.css */
+
+/* These are the fonts used throughout the webpage.
+ * I've listed them here so that a user may easily
+ * do a search-and-replace for these to change the site theme.
+ *   'Roboto',sans-serif; Font for the title text
+ *   'Roboto-Slab',serif; Font for the body text 
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+
+
+.backround {
+  background-image: url("/assets/banner.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 160px;
+  border: solid 2px #68ace5;
+}
+
+
+.primary-header a,
+.primary-footer a {
+  color: #002d72;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #002d72;
+}
+
+  .banner { 
+          color:#002d72; 
+          font-size: 26pt; 
+          font:100% 'Roboto', Helvetica,Verdana,Arial,sans-serif;  
+          float:left; 
+          black-space:nowrap; 
+          }
+
+  .banner a:hover { color:#002d72;  }
+  .subbanner-1 { font-size:26pt; text-align:right; float:right; font-weight: bold; }
+  .subbanner-2 { font-size:16pt; text-align:right; float:right;  }
+
+
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.logo {
+  border-top: 4px solid #68ace5;
+  float: left;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 30px 0 22px 0;
+  text-transform: uppercase;
+  font-weight:bold;
+}
+.tagline {
+  margin: 46px 0 6px 0;
+  text-align: right;
+}
+.primary-nav {
+  font-size: 15px;
+  font-weight: 450;
+  letter-spacing: 1 px;
+  padding: 1px 0 0 0;
+  text-transform: uppercase;
+}
+
+body { 
+      color: rgb(115, 115, 115); 
+      background:#F8F8F8;
+      font:83% 'Source Sans Pro', 'Roboto', Helvetica,Verdana,Arial,sans-serif; 
+      line-height:1.6em;
+      padding-bottom: 2px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 0px; 
+      margin-left:30%; margin-right:5%; margin-top:0%; margin-bottom:3%;
+      max-width:750px;
+      }
+
+  ::-moz-selection { color:#002d72; background:#68ace5}
+  ::selection { color:#F8F8F8; background:#68ace5}
+  a { color:#002d72 }
+  a:link,a:visited { text-decoration:none }
+  a:hover { color:#002d72;  }
+  .talk a:link, .talk a:visited, .talk a:hover { color:#002d72; text-decoration:none }
+  .talk a:hover { color:#002d72; }
+
+  .header { 
+          background:#F8F8F8;
+          color: rgb(85, 85, 85);
+          cursor: auto;
+          display: inline;
+          font-family: Helvetica, Verdana, Arial, sans-serif;
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          height: auto;
+          letter-spacing: 1px;
+          line-height: 21.2479991912842px;
+          margin-left:35%; margin-right:5%; margin-top:0%; margin-bottom:3%;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
+          text-decoration: none;
+          text-shadow: rgb(170, 170, 170) 2px 2px 5px;
+          width: auto;
+          position:fixed; 
+          left:0; 
+          right:0; 
+          top:0; 
+          z-index:1; 
+          }
+
+
+
+  .header-container { 
+                    border-width:2px 0;
+                    padding:8px 0 10px; 
+                    margin-left:auto; 
+                    margin-right:auto; 
+                    max-width:750px;
+                    }
+
+
+  .container ul.radiobtn{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}           
+
+ /*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}            
+
+  .talk { margin-top:80px; clear:both }
+  .date, .location { color:#002d72; float:right; font-size:14pt; white-space:nowrap; vertical-align:middle; line-height:22pt }
+  .location { clear:right; font-weight:bold; line-height:10pt }
+  .speaker { font-size:16pt; }
+  .title { 
+          font-size:22pt;  padding-top: 25px; clear: none;
+          color: #002d72;
+          display: block;
+          font-family: 'Source Sans Pro', 'Roboto', Helvetica, Verdana, Arial, sans-serif;
+          font-size: 19.9200000762939px;
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          line-height: 21.2479991912842px;
+          padding-bottom: 2px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
+          text-align: left;
+          margin-top:2%;
+          }
+
+  .title2 { font-size:24pt;  padding-top: 25px; clear: none;
+  color: rgb(85, 85, 85);
+  display: block;
+  font-family: 'Source Sans Pro', 'Roboto', Helvetica, Verdana, Arial, sans-serif;
+  font-size: 19.9200000762939px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 21.2479991912842px;
+  
+  padding-bottom: 2px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  text-align: left;
+  margin-top:2%; 
+    }
+  
+  .abstract { font-size:12pt; }
+    .abstract2 { font-size:12pt; }
+  .nobr { white-space:nowrap }
+  .semester { 
+            color: #002d72;
+            box-shadow: 10px 5px 5px lightsteelblue;
+            display: block;
+            font-family: 'Source Sans Pro', 'Roboto', Helvetica, Verdana, Arial, sans-serif;
+            text-shadow: rgb(170, 170, 170) 2px 2px 5px;
+            font-size:20pt; 
+            text-align:center; 
+            padding-top:45px;
+            border-radius: 25px; 
+            padding-bottom: 45px;
+            }
+
+  .frak { color: rgb(65, 65, 65);
+  display: block;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+text-shadow: rgb(170, 170, 170) 2px 2px 5px;
+font-size:20pt; text-align:center; padding-top:30px}
