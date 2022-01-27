@@ -1,4 +1,4 @@
-/* Sep 2021 by Sina Hazratpour */
+/* Sep 2021 by Sina Hazratpour (sinhp.github.io) */
 /* styles.css */
 
 /* These are the fonts used throughout the webpage.
@@ -7,6 +7,8 @@
  *   'Roboto',sans-serif; Font for the title text
  *   'Roboto-Slab',serif; Font for the body text 
  */
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
@@ -140,6 +142,26 @@ body {
   overflow: auto;
 }           
 
+
+/*
+For modality online/in-person
+*/
+.button {
+  background-color: #68ace5; /* jhu_blue */
+  border: solid rgb(170, 170, 170);
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 1px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+
  /*
   ========================================
   Clearfix
@@ -220,3 +242,4 @@ body {
   font-family: Helvetica, Verdana, Arial, sans-serif;
 text-shadow: rgb(170, 170, 170) 2px 2px 5px;
 font-size:20pt; text-align:center; padding-top:30px}
+
